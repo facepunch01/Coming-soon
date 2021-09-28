@@ -16,4 +16,33 @@ body {
   margin-bottom: -3.9em;
   top: em;
 }
+
+@media only screen and (max-height: 800px) {
+  .hero {
+    position: relative;
+    top: 0.7em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .hero {
+    position: relative;
+    top: 12em;
+    font-size: 1em;
+  }
+  .hero .hero-image {
+    width: 17em;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .hero {
+    position: relative;
+    top: 4.5em;
+    font-size: 2em;
+  }
+  .hero .hero-image {
+    width: 13em;
+  }
+}
 /*# sourceMappingURL=main.css.map */
