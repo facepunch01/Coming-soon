@@ -7,37 +7,33 @@ body {
     text-align: center;
     font-size: 2.5em;
     position: relative;
-    top: 3em;
+    top: 50%;
     .hero-image {
         width: 20em;
-        margin-bottom: -3.9em;
-        top: em;
     }
 }
-@media only screen and (max-height: 800px) {
+@media only screen and (min-width: 319px) {
     .hero {
+        font-size: medium;
         position: relative;
-        top: 0.7em;
-    }
-    
-}
-@media only screen and (max-width: 480px) {
-    .hero {
-        position: relative;
-        top: 12em;
-        font-size: 1em;
+        top: 40%;
         .hero-image {
-            width: 17em;
+            width: 19rem;
+            margin-bottom: -4em;
+
+
         }
     }
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 767px) {
     .hero {
-        position: relative;
-        top: 4.5em;
-        font-size: 2em;
+        font-size: medium;
+        h1 {
+            font-size: xxx-large;
+        }
         .hero-image {
-            width: 13em;
+            width: 42em;
+            margin-bottom: -8em;
         }
     }
 }
